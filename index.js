@@ -88,7 +88,7 @@ function buttonp() {
             case "button8":
                 console.log("in2");
                 document.querySelector(".musicanimationrun").setAttribute("src" , "./images/music1.jpg");
-                audio = new Audio("./music/music8.mp3");
+                audio = new Audio("/music/music8.mp3");
                 document.querySelector(".currmtitle").innerHTML = "Cruel Summer(Taylor Swift)";
                 document.querySelector(".b1").style.backgroundColor = " rgb(58, 31, 49)";
                 audio.play();
@@ -97,7 +97,7 @@ function buttonp() {
             case "button9":
                 console.log("in2");
                 document.querySelector(".musicanimationrun").setAttribute("src" , "./images/music1.jpg");
-                audio = new Audio("./music/music9.mp3");
+                audio = new Audio("/music/music9.mp3");
                 document.querySelector(".currmtitle").innerHTML = "Cruel Summer(Taylor Swift)";
                 document.querySelector(".b1").style.backgroundColor = " rgb(58, 31, 49)";
                 audio.play();
